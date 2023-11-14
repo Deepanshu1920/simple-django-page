@@ -65,7 +65,7 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.home, name='home'),
+    path('', views.detail_user, name='home'),
 ]
 ```
 This URL pattern will map the root URL of the app to the "home" view.
@@ -87,3 +87,7 @@ Now you can start the development server and visit http://localhost:8000/myapp/ 
 python manage.py runserver
 ```
 I hope this helps! Let me know if you have any questions
+
+
+
+https://github.com/90x-Development/simple-django-page
